@@ -1,0 +1,14 @@
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.location {
+    background-color:darkblue;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+.location__image {
+    max-height: 10rem;
+
+}

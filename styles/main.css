@@ -1,0 +1,37 @@
+@import "./fishes.css";
+@import "./tips.css";
+@import "./locations.css";
+@import "./quotes.css";
+
+body {
+    color:aliceblue;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url("https://images.theconversation.com/files/223729/original/file-20180619-126566-1jxjod2.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop");
+    background-size: 100%;
+}
+.tab {
+    background-color: darkcyan;
+    width:100px;
+    text-align: center;
+    border-radius: 8px;
+}
+.bodyHeader {
+    text-align: center;
+    background-color: darkblue;
+    border-radius: 12px;
+    width:60%;
+    margin-left: 200px;
+}
+.container {
+    display: flex;
+    padding: 3rem;
+}
+/* .bordered {
+    border: 1px dotted goldenrod;
+} */
+.bottom-space {
+    margin-bottom: 3rem;
+}
+.flex-container-left {
+    flex: 3;
+}

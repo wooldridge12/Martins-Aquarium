@@ -1,0 +1,10 @@
+.quotes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.quote {
+    background-color:darkblue;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}

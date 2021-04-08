@@ -1,0 +1,15 @@
+.fishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.fish {
+    flex-basis: 16%;
+    background-color:darkblue;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+.fish__image {
+    max-height: 10rem;
+}
